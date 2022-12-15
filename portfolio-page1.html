@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+<title>Page</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+          <a class="nav-item nav-link disabled" href="#">Disabled</a>
+        </div>
+    </div>
+</div>
+</nav>
+
+<!--this page is styled with bootstrap, unlike the rest of my website pages-->
+
+    <div class="container">
+    <h1>placeholder <span class="badge-pill badge-secondary">new</span></h1>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-4">
+    <div class="input-group">
+        <div class="input-group-prepend">
+            <span class="input-group-text"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></span>
+        </div>
+        <input type="text" class="form-control" placeholder="Search">
+    </div>
+    </div>
+    </div>
+
+<br>
+
+    <p>NOTE:  This page is styled with bootstrap css.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae asperiores provident laudantium ullam, harum dignissimos repellendus quo eius suscipit voluptate obcaecati facilis qui odit eos! Ipsam esse veritatis dicta consectetur!</p>
+
+<blockquote class="blockquote">
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatum, qui ab quos eius tempora totam maiores? Natus laborum, consequuntur at magni architecto excepturi culpa perferendis amet quasi iure quidem.
+    </p>
+    <footer class="blockquote-footer">Someone famous in <cite title="source title">source title</cite></footer>
+</blockquote>
+
+    <button type="button" class="btn btn-primary">Updates <span class="badge badge-light">8</span></button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-info disabled">Info</button>
+
+    <a class="btn btn-danger btn-sm active" href="portfolio-home.html" role="button">home</a>
+
+    <p>button groups</p>
+    <div class="btn-group">
+        <button class="btn btn-warning">One</button>
+        <button class="btn btn-danger">Two</button>
+        <button class="btn btn-primary">Three</button>
+
+    </div>
+
+    <p>alerts</p>
+
+    <div class="alert alert-danger alert-dismissible" role="alert">
+    <h4 class="alert-heading">oh no!</h4>
+    words words
+    <button aria-label="Close" class="close" data-dismiss="alert">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+
+</div>
+</div>
+
+<div class="container">
+
+<h3 class="display-1 text-center text-primary">The Grid System</h3>
+<div class="container">
+<div class="row">
+    <!-- total is always 12 -->
+    <div class="col-3 bg-success">I am 3 units</div>
+    <div class="col-9 bg-primary">I am 9 units</div>
+</div>
+</div>
+</div>
+
+<hr>
+<div class="container">
+
+    <div class="row justify-content-center">
+        <div class="col-lg-3">
+    <img class="img-fluid" src="icons/antelope.jpg" alt="profile photo">
+</div>
+
+<div class="col-6">
+    <p>Hey, I'm Kendra. I'm a technical writer.  I'm learning how to code via Udemy's "The Web Developer Bootcamp 2022" course, taught by Colt Steele.
+I also do freelance writing work on the weekends via Fiverr.  Some of my hobbies are: eating too many donuts, skateboarding, drawing, and piano.
+    </p>
+</div>
+</div>
+</div>
+
+<hr>
+
+<div class="container">
+    <h3 class="display-2">Request for Information (RFI)</h3>
+
+
+    <form action="#nowhere">
+        <div class="form-row">
+        <div class="form-group col">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="name">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="email">
+        </div>
+    </div>
+
+    <div class="form-row">
+    <div class="col-auto my-1">
+        <div class="custom-control custom-checkbox mr-sm-2">
+          <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+          <label class="custom-control-label" for="customControlAutosizing">Technical Writing Commission</label>
+        </div>
+      </div>
+      <div class="col-auto my-1">
+        <div class="custom-control custom-checkbox mr-sm-2">
+          <input type="checkbox" class="custom-control-input" id="customControlAutosizing">
+          <label class="custom-control-label" for="customControlAutosizing">Art Commission</label>
+        </div>
+      </div>
+    </div>
+
+
+    <form action="#nowhere">
+        <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="goal">Project Goal</label>
+            <input type="text" class="form-control" id="goal" placeholder="What is your goal for this project?">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="challenges">Current Challenges</label>
+            <input type="text" class="form-control" id="challenges" placeholder="What are your current challenges?">
+        </div>
+    </div>
+
+    <form action="#nowhere">
+        <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="scope">Scope of Work</label>
+            <input type="text" class="form-control" id="scope" placeholder="What is the scope of work?">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="requirements">Deliverable Requirements</label>
+            <input type="text" class="form-control" id="requirements" placeholder="What are the deliverable requirements?">
+        </div>
+    </div>
+
+    <form action="#nowhere">
+        <div class="form-row">
+            <div class="form-group col">
+                <label for="notes">Additional Notes</label>
+                <textarea class="form-control" id="notes" rows="3" placeholder="Add more details here..."></textarea>
+              </div>
+    </div>
+
+
+        <form action="#nowhere">
+            <div class="form-group">
+              <label for="attachments">Add Attachments</label>
+              <input type="file" class="form-control-file" id="attachments">
+            </div>
+
+            <button type="submit" class="btn btn-success">Send RFI</button>
+
+
+    </div>
+
+</form>
+</div>
+
+<hr>
+
+
+
+<footer>
+    <a href="#home">Home</a> 
+    <a href="#contact">Contact</a></p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</body>
+</html>
